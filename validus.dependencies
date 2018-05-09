@@ -1,0 +1,22 @@
+[
+  {
+    "repository": "BigTopKrazies/vendor_essential",
+    "target_path": "vendor/essential",
+    "branch": "8.1"
+  },
+  {
+    "repository": "MindTheGapps/vendor_gapps",
+    "target_path": "vendor/gapps",
+    "branch": "master"
+  },
+  {
+    "repository": "GZR-Kernels/kernel_essential_msm8998",
+    "target_path": "kernel/essential/msm8998",
+    "branch": "8.1"
+  },
+  {
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+	"branch": "lineage-15.1"
+  }
+]

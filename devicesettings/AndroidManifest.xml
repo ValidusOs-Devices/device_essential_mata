@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="org.lineageos.settings.device"
+      package="org.validus.settings.device"
       android:sharedUserId="android.uid.system">
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -19,7 +19,7 @@
 
         <provider
             android:name=".DeviceSettingsSearchIndexablesProvider"
-            android:authorities="org.lineageos.settings.device"
+            android:authorities="org.validus.settings.device"
             android:multiprocess="false"
             android:grantUriPermissions="true"
             android:permission="android.permission.READ_SEARCH_INDEXABLES"
@@ -29,7 +29,7 @@
             </intent-filter>
         </provider>
 
-        <receiver android:name="org.lineageos.settings.device.BootCompletedReceiver">
+        <receiver android:name="org.validus.settings.device.BootCompletedReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
                 <category android:name="android.intent.category.DEFAULT" />
